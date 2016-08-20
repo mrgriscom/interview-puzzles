@@ -23,11 +23,9 @@ and expanding, we get:
 - `F_3 = J_f * (3/1 + 3/2 + 1)`
 - `F_4 = J_f * (4/1 + 4/2 + 4/3 + 1)`
 
-Thus `F_n = J_f * sum(n/i for i from 1 to n)`, and the flea's distance as a proportion of the kangaroo's is:
+Thus `F_n = J_f * sum(n/i for i from 1 to n)`, and the flea's distance as a proportion of the kangaroo's (which, if exceeding `1`, means the flea has caught up) is:
 
 `F_n/K_n = J_f * sum(n/i for i from 1 to n) / (n * J_k) = J_f/J_k * sum(1/i for i from 1 to n)`
-
-If this quantity exceeds `1`, the flea has caught up with the kangaroo.
 
 `sum(1/i for i from 1 to n)` is the harmonic series, which diverges, so this formula will always exceed `1` for sufficiently large `n`.
 Therefore, the flea always catches up to the kangaroo.
