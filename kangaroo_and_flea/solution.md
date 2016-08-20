@@ -35,4 +35,4 @@ How long will it take?
 `harmonic_sum(n)` can be roughly approximated as `ln(n)`, making the number of jumps to catch up `e^(J_k/J_f)`.
 
 For a flea-kangaroo jump ratio of `1:100`, this yields `2.7e43 m`.
-The observable universe is "only" `8.8e23` m across.
+The observable universe is "only" `8.8e26` m across.
